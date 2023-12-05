@@ -1,0 +1,166 @@
+.content {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+.content__title {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.content__search {
+    border: 2px solid black;
+    margin: 20px 0;
+    padding: 30px;
+}
+
+.content__search-group {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.search-name {
+    width: 15%;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.search-name__input {
+    width: 20%;
+    height: 30px;
+    border: 1px solid #a8a8a8;
+    border-radius: 3px;
+    appearance: none;
+}
+
+span {
+    margin: 0 30px;
+}
+
+.gender-name {
+    width: 10%;
+    text-align: center;
+    font-weight: bold;
+}
+.search-name__radio {
+    width: 10%;
+}
+input[type="radio"] {
+    transform: scale(2.5);
+    margin-right: 20px;
+}
+
+.button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 10%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form__reset-button {
+    margin-top: 10px;
+}
+
+.form__reset-button-submit {
+    color: #000;
+}
+
+
+
+.content__table {
+    width: 100%;
+}
+.table__inner {
+    border-collapse: collapse;
+    width: 100%;
+}
+.table__title-row {
+    border: 2px solid #000;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 100%;
+}
+
+th {
+    width: 10%;
+}
+th:last-child {
+    width: 40%;
+    text-align: left;
+}
+.table__header-id {
+    margin: 20px 0;
+}
+.table__header-text {
+    margin-left: 20px;
+}
+
+.table__item-id {
+    text-align: center;
+}
+.input__item-id {
+    margin: 20px 0;
+    border: none;
+    width: 20px;
+}
+
+.table__item-name {
+    text-align: center;
+}
+.input__item-name {
+    margin: 20px 0;
+    border: none;
+    width: 70%;
+}
+
+.table__item-gender {
+    text-align: center;
+}
+.input__item-gender {
+    margin: 20px 0;
+    border: none;
+    width: 20px;
+}
+
+.table__item-email {
+    text-align: center;
+}
+.input__item-email {
+    margin: 20px 0;
+    border: none;
+    width: 100%;
+}
+
+.table__item-option {
+    text-align: center;
+}
+.input__item-option {
+    margin: 20px 0 20px 20px;
+    border: none;
+    width: 100%;
+}
+
+
+.table__item-delete__submit {
+    text-align: center;
+}
+.delete__submit {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}

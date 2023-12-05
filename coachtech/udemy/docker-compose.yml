@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  api:
+    build: ./api
+    ports:
+      - 8080:8080
+  db:
+    image: postgres:15
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_PASSWORD=mypassword
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=appdb
+    volumes:
+      - db-storage:var/lib/postg
